@@ -130,6 +130,10 @@ html{
     margin-bottom: 20px;
 }
 
+.conoceme .contenido-seccion a{
+    text-decoration: none;
+}
+
 .conoceme .contenido-seccion p span{
     color: #1CB698;
     font-weight: bold;
