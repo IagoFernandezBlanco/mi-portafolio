@@ -118,11 +118,10 @@ html{
 }
 
 .conoceme h2{
-    font-size: 40px;
+    font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-
 }
 
 .conoceme .contenido-seccion p{
@@ -177,8 +176,8 @@ html{
 }
 
 .conoceme .fila .col .contenedor-intereses .interes{
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     background-color: #252A2E;
     border-radius: 10px;
     margin: 0 15px 15px 0;
@@ -187,7 +186,6 @@ html{
     align-items: center;
     justify-content: center;
     transition: .3s;
-    font-size: 12px;
 }
 
 .conoceme .fila .col .contenedor-intereses .interes:hover{

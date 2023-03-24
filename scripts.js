@@ -39,6 +39,14 @@ function efectoHabilidades(){
     }
 }
 
+// Funciones que redireigen a mis redes principales
+function linkedinRed() {
+    window.location.href = "https://www.linkedin.com/in/iagofernandezblanco/";  
+}
+
+function youtubeRed() {
+    window.location.href = "https://www.youtube.com/channel/UCIS2r3cmNaGzs4AYqA-R5HQ";  
+}
 //detecto el scrolling para apalicar la animación
 window.onscroll = function(){
     efectoHabilidades();
