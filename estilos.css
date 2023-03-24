@@ -359,7 +359,7 @@ margin-bottom: 10px;
 
 .habilidades .habilidad .comunicacion{
     width: 0%;
-    animation: 2s html forwards;
+    animation: 2s comunicacion forwards;
 }
 
 @keyframes comunicacion {
@@ -369,10 +369,10 @@ margin-bottom: 10px;
 
 .habilidades .habilidad .autodidactismo{
     width: 0%;
-    animation: 2s html forwards;
+    animation: 2s autodidactismo forwards;
 }
 
-@keyframes html {
+@keyframes autodidactismo {
     0%{width: 0%;}
     100%{width: 90%;}
 }
@@ -382,7 +382,7 @@ margin-bottom: 10px;
     animation: 2s trabajo-en-equipo forwards;
 }
 
-@keyframes html {
+@keyframes trabajo-en-equipo {
     0%{width: 0%;}
     100%{width: 90%;}
 }
@@ -392,7 +392,7 @@ margin-bottom: 10px;
     animation: 2s profesionalidad forwards;
 }
 
-@keyframes html {
+@keyframes profesionalidad {
     0%{width: 0%;}
     100%{width: 100%;}
 }
