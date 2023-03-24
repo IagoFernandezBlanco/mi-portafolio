@@ -739,3 +739,82 @@ footer .arriba{
     border-radius: 50%;
     line-height: 50px;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{ 
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid white;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .conoceme .fila{
+        display: block;
+    }
+    .conoceme .fila .col{
+        width: fit-content;
+    }
+
+    .habilidades .fila{
+        display: block;
+    }
+
+    .habilidades .fila .col{
+        width: 100%;
+    }
+
+    .habilidades .fila .col .barra-habilidad{
+        width: 100%;
+    }
+
+    .curriculum .fila {
+        display: block;
+    }
+
+    .curriculum .fila .col {
+        width: 90%;
+    }
+
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .portfolio .galeria{
+        display: block;
+        width: 100%;
+    }
+
+    .portfolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portfolio .galeria .proyecto img{
+        width: 100%;
+    }
+
+    .contacto .fila{
+        display: block;
+    }
+
+    .contacto .fila .col{
+        width: 100%;
+    }
+}
+    
