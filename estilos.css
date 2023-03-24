@@ -582,6 +582,11 @@ margin-bottom: 10px;
     display: block;
 }
 
+.portfolio .galeria .proyecto a{
+    text-decoration: none;
+    color: white;
+}
+
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
